@@ -1,9 +1,9 @@
 INFM600 Information Organization Assignment
 ===========================================
 
-This repository consists of a license `CC0 1.0 Universal` information and a data subset called `Facebook_Omnibus_DataSubset.csv`created from the dataset `Omnibus_Dec_2012_csv.csv` using the R Script `RScript.R`.
+This repository is licensed under `CC0 1.0 Universal` and consists of a data subset called `Facebook_Omnibus_DataSubset.csv` created from the dataset `Omnibus_Dec_2012_csv.csv` using the script `RScript.R`.
 
-An R script called `RSrcipt.R` works as follows:
+The script `RSrcipt.R` works as follows:
 
 1. Sets the working directory to the directory that contains the original dataset `Omnibus_Dec_2012_csv.csv`
 2. Reads the content of the dataset `Omnibus_Dec_2012_csv.csv` into a data frame *FBDataSet*
