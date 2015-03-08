@@ -8,5 +8,5 @@ FBDataSet<-read.csv(file="Omnibus_Dec_2012_csv.csv",header=TRUE,sep=",")
 ##for non-facbook user, pial = 2 and for females, sex = 2
 FBDataSubset<-subset(FBDataSubset,pial2==2 & sex==2 & age>=18 & age<=30)
 
-#Write the dataframe 'FBDataSubset' in Human Readable CSV format document
+#Write the dataframe 'FBDataSubset' in Human Readable CSV format
 write.csv(FBDataSubset, file="./Facebook_Omnibus_DataSubset.csv",row.names=FALSE)
